@@ -157,4 +157,45 @@
     color: rgba(255, 255, 255, 0.65);
     padding-left: 5px;
   }
+  /* change-habits */
+.change-habits {
+    text-align: center;
+    margin-top: 5rem;
+  }
+  .change-habits h2 {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+  }
+  .change-habits p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 1rem;
+  }
+  .change-habits-picture {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 8rem;
+    margin-top: 2rem;
+    text-align: center;
+    margin-right: 8rem;
+  }
+  
+  .change-habits-picture img {
+    border-radius: 100%;
+  }
+  .change-habits-picture h3 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  .change-habits-picture p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+  }
+  
   
