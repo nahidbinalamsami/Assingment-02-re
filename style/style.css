@@ -30,4 +30,40 @@
       rgba(119, 119, 119, 0) 100%
     );
   }
+  /* nav style  */
+.nav-contant {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-fitness {
+    margin-top: 1rem;
+  }
+  .span-one {
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+    margin-left: 10rem;
+  }
   
+  .nav-li-contant {
+    list-style: none;
+    display: flex;
+    margin-right: 10rem;
+    margin-top: 1rem;
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    padding: 10px;
+  }
+  .nav-li-contant a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 1rem;
+  }
+  
+  .home {
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px 0px 0px 10px;
+  }
